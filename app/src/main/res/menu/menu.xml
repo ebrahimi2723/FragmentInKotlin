@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fragmentA"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/a"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fragmentB"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/b"
+        app:showAsAction="always" />
+</menu>
